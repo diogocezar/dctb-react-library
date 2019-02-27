@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'react-library'
+import { Button } from "react-library";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Button text="Modern React component module" />
       </div>
-    )
+    );
   }
 }
